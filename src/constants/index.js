@@ -12,38 +12,40 @@ export const EXPERIENCES = [
     role: "Research Junior Officer",
     company: "Angkor Social Innovation Park",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    technologies: ["Excel Sheet", "Google docs", "Canvas", "Notion"],
   },
   {
     year: "2023 - 2024",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    role: "Student",
+    company: "STEP IT Academy",
+    description: `Fully studying on Web Development course using laravel framework, phpMyAdmin for storing database, and build a hotel management project along the way`,
+    technologies: ["HTML", "CSS", "Laravel", "mySQL"],
   },
   {
-    year: "2022 - 2023",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    "year": "2022 - 2023",
+    "role": "University Freshman in Data Science",
+    "company": "CamTech University",
+    "description": "As part of a school internship project, I collaborated with a team of four to develop 'Denteeth,' a machine learning model designed to detect dental diseases and facilitate connections between patients and dentists. We utilized TensorFlow to build and train the model, aiming to make dental diagnostics more accessible.",
+    "technologies": ["Python", "TensorFlow"]
   },
+  
   {
     year: "2021 - 2022",
-    role: "Software Engineer",
-    company: "Paypal",
+    role: "Elite Student's Honor Roll",
+    company: "Paññāsāstra International School (PSIS) - Phnom Penh, Cambodia",
     description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    "technologies": [""]
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Research Paper",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+  
   },
   {
     title: "Task Management App",

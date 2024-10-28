@@ -31,6 +31,11 @@ const Projects = () => {
                 className="w-full max-w-xl lg:w-3/4">
                     <h6 className="mb-2 font-semibold">{project.title} </h6>
                     <p className="mb-4 text-neutral-400 ">{project.description}</p>
+                    <a 
+                      href={project.link}  // Replace with the actual URL or link for each project
+                      className="inline-block px-4 py-2 text-white border-2 rounded-2xl hover:bg-blue-600 transition duration-300">
+                Click Here
+              </a>
                 </motion.div>
             </div>
         ))}
